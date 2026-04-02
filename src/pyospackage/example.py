@@ -34,3 +34,28 @@ def add_numbers(a, b):
 
     """
     return a + b
+
+def multiply_num(a: int, b: int) -> int:
+    """
+    Muliplies two numbers.
+
+    Parameters
+    ----------
+    a : int
+        The first number to be multiplied.
+    b : int
+        The second number to be multiplied.
+
+    Returns
+    -------
+    int
+        The multiplication result of the two input numbers (a * b).
+
+    Examples
+    --------
+    >>> multiply_num(3, 2)
+    6
+    >>> multiply_num(-2, 4)
+    -8
+    """
+    return a * b
